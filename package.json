@@ -1,0 +1,23 @@
+{
+  "name": "jddevsite",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/loetek/JD-Personal-Dev-Site.git"
+  },
+  "keywords": [
+    "personal",
+    "site"
+  ],
+  "author": "JD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loetek/JD-Personal-Dev-Site/issues"
+  },
+  "homepage": "https://github.com/loetek/JD-Personal-Dev-Site#readme"
+}
