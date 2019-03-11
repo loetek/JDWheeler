@@ -30,7 +30,7 @@
     -webkit-transform: translate3d(0px, 0px, 0px); }
   .owl-carousel .owl-item {
     position: relative;
-    min-height: 1px;
+    /* min-height: 1px; */
     float: left;
     -webkit-backface-visibility: hidden;
     -webkit-tap-highlight-color: transparent;

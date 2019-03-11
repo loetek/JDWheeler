@@ -120,6 +120,15 @@
 	background-repeat: no-repeat !important;
 	background-position: center center !important;
 	background-size: cover !important;
+	margin: 10px;
+}
+.exprience-thumb-photos {
+	height: 100%;
+	min-height: 400px;
+	background-repeat: no-repeat !important;
+	background-position: center center !important;
+	background-size: cover !important;
+	margin: 10px;
 }
 .mb-sm-20 {
 	@include media-breakpoint-down(sm) {
@@ -232,7 +241,8 @@
 //--------- Start Service Area -------------//
 .service-area {
 	background: #f9faff;
-	padding: 90px 0 120px 0;
+	padding: 90px 0px 120px 0;
+	margin: 0px 20px 0px 20px;
 }
 .single-service {
 	margin-top: 30px;
