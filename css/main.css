@@ -1894,7 +1894,7 @@ nav.hide {
 }
 
 nav a {
-  font-size: 12px;
+  font-size: 24px;
   font-weight: 500;
   text-transform: uppercase;
   color: #fff;
@@ -1971,7 +1971,7 @@ nav a:hover {
 }
 
 .banner-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.50);
+  background: rgba(0, 0, 0, 0.30);
 }
 
 @media (max-width: 767px) {
