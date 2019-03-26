@@ -1,9 +1,9 @@
 <?php
-    $to = 'demo@spondonit.com';
+    $to = 'jdwheeler0@gmail.com';
     $firstname = $_POST["fname"];
     $email= $_POST["email"];
     $text= $_POST["message"];
-    
+
 
 
     $headers = 'MIME-Version: 1.0' . "\r\n";
@@ -16,7 +16,7 @@
         </tr>
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>Email: '.$text.'</td></tr>
-        
+
     </table>';
 
     if (@mail($to, $email, $message, $headers))
