@@ -17,7 +17,9 @@
         <tr><td>Email: '.$email.'</td></tr>
         <tr><td>Email: '.$text.'</td></tr>
 
-    </table>';
+    </table>'
+
+    mail("jdwheeler0@gmail.com", $subject, $message, $headers);;
 
     if (@mail($to, $email, $message, $headers))
     {
